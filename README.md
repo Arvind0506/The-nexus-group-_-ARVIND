@@ -8,7 +8,7 @@
 
 ### About the Experiment 
 
-This experiment explains how a bipolar juction transistor (BJT) operates as an electronic switch. When a small currents floes into the base terminal, it allows the larger current to flow between the collector and emitter. This principle is used in logic circuits, microcontroller outputs, ans digital electronics for controlling high power devices using low power signals.
+This experiment explains how a bipolar juction transistor (BJT) operates as an electronic switch. When a small currents floes into the base terminal, it allows the larger current to flow between the collector and emitter. This principle is used in logic circuits, microcontroller outputs, and digital electronics for controlling high power devices using low power signals.
 
 <b>Name of Developer | <b> Mr. Rajeev Kumar 
 :--|:--|
