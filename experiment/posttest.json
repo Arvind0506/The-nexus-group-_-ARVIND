@@ -2,12 +2,29 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What happens to the collector current when the base current is removed in switching mode?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "It increases",
+        "b": "It remains the same",
+        "c": "It drops to zero",
+        "d": "It becomes negative"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In saturation mode, both the base-emitter and base-collector junctions are:",
+      "answers": {
+        "a": "Forward biased",
+        "b": "Reverse biased",
+        "c": "Forward and reverse biased respectively",
+        "d": "Unbiased"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -19,12 +36,12 @@
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What is the primary function of a transistor in switching mode?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Amplification",
+        "b": "Filtering",
+        "c": "Rectification",
+        "d": "Turning circuits on/off"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -34,6 +51,40 @@
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
-    }
+    },
+    {
+      "question": "What does the transistor act like in switching mode?",
+      "answers": {
+        "a": "A rectifier",
+        "b": "A diode",
+        "c": "A switch",
+        "d": "A signal generator"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+   {
+      "question": "Which component is commonly connected with the transistor to control an LED blink?",
+      "answers": {
+        "a": "Inductor",
+        "b": "Capacitor",
+        "c": "Resistor",
+        "d": "Transformer"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    } 
   ]
 }
