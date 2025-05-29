@@ -4,7 +4,7 @@
 <b>Discipline | <b> Electronics Engineering
 :--|:--|
 <b> Lab | <b> Basic Electronics
-<b> Experiment|     <b> Experiment-1 To study the Characteristics of BJT in Switching Mode.
+<b> Experiment|     <b>  To study the Characteristics of BJT in Switching Mode.
 
 ### About the Experiment 
 
