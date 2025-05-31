@@ -2,8 +2,8 @@
 
    "details": [
        {
-			"Experiment": "Voltage Distribution Across String Insulators",     
-			"Lab": "Power System Lab",               
+			"Experiment": "To study the Characteristics of BJT in Switching Mode",     
+			"Lab": "Basic Electronics",               
 			"Discipline": "Electronics Engineering",				 
 			"Technology": "HTML CSS Javascript"         
        }
@@ -25,24 +25,24 @@
        },
 
        {       
-			"Contributer": "Dhananjay Singh Gaur",              
+			"Contributer": "Utkarsh Miahra",              
       "Institute": "REC Kannauj",               
 			"InstituteAcronym": "RECK"         
        },
 
        {       
-			"Contributer": "Ichha Shukla",             
+			"Contributer": "Arvind Sharma",             
       "Institute": "REC Kannauj",               
 			"InstituteAcronym": "RECK"         
        },
 
        {       
-			"Contributer": "Satish Kumar",              
+			"Contributer": "Harsh Pandey",              
       "Institute": "REC Kannauj",               
 			"InstituteAcronym": "RECK"         
        },
        {       
-			"Contributer": "Shaili Chauhan",              
+			"Contributer": "Ankit Kumar",              
       "Institute": "REC Kannauj",               
 			"InstituteAcronym": "RECK"         
        }
