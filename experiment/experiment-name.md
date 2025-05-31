@@ -1,1 +1,1 @@
-## To Study the Characteristics of a BJT in Switching Mode
+##              TO STUDY THE CHARACTERISTICS OF A BJT IN SWITCHING MODE
