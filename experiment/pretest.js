@@ -133,7 +133,7 @@
      }, 
      
      {
-      question: "In switching operation, when the transistor is fully ON, it is said to be in:",
+      question: "5. In switching operation, when the transistor is fully ON, it is said to be in:",
       answers: {
         a:  "Cutoff region",
         b: "Linear region",
