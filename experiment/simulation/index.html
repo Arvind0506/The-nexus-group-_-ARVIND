@@ -1,13 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
+  <meta charset="UTF-8" />
+  <title>Transistor Simulator</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-		<!-- Your code goes here-->
+  <div class="circuit">
+    <div class="label voltage" style="top:10px; left:60px;">+5V</div>
+    <div class="label voltage" style="top:10px; left:330px;">+5V</div>
+    <div class="label voltage" style="top:305px; left:310px;">GND</div>
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+    <div class="resistor1">
+      <div class="band band1"></div>
+      <div class="band band2"></div>
+      <div class="band band3"></div>
+    </div>
+    <div class="resistor2">
+      <div class="band band1"></div>
+      <div class="band band2"></div>
+      <div class="band band3"></div>
+    </div>
+
+    <svg class="transistor-svg" width="130" height="440" viewBox="1 15 120 400">
+      <circle cx="50" cy="50" r="25" stroke="black" fill="none" stroke-width="2"/>
+      <line x1="20" y1="50" x2="50" y2="50" stroke="black" stroke-width="2" />
+      <line x1="65" y1="35" x2="50" y2="50" stroke="black" stroke-width="2" />
+      <line x1="65" y1="65" x2="50" y2="50" stroke="black" stroke-width="2" />
+      <polygon id="arrowHead" points="60,67,66,58,70,68" fill="black"/>
+    </svg>
+
+    <div class="lamp" id="lamp">Lamp</div>
+
+    <!-- Wires -->
+    <div class="wire vcc-line1"></div>
+    <div class="wire vcc-line2"></div>
+    <div class="wire base-line1"></div>
+    <div class="wire base-line2"></div>
+    <div class="wire collector-line"></div>
+    <div class="wire lamp-line1"></div>
+    <div class="wire emitter-line"></div>
+    <div class="wire lamp-line2"></div>
+    <div class="wire gnd-line"></div>
+  </div>
+
+  <div class="multimeter" id="multimeter"></div>
+
+  <div class="controls">
+    <label>Base Current (uA): <span id="ibDisplay">0</span></label><br>
+    <input type="range" id="ibSlider" min="0" max="100" value="0" oninput="updateCircuit()"><br>
+    <label>Transistor Type:</label>
+    <button onclick="toggleType()" id="typeBtn">NPN</button>
+  </div>
+
+  <canvas id="graph" width="600" height="300"></canvas>
+  <audio id="switchSound" src="https://cdn.pixabay.com/audio/2022/03/15/audio_4f4a2d676f.mp3"></audio>
+
+  <h3>Transistor Operating Modes</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Mode</th>
+        <th>Base-Emitter Bias</th>
+        <th>Base-Collector Bias</th>
+        <th>V<sub>BE</sub> (V)</th>
+        <th>V<sub>CE</sub> (V)</th>
+        <th>Transistor State</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Cut-off</td><td>Reverse</td><td>Reverse</td><td>&lt; 0.6V</td><td>High (~5V)</td><td>ON (Open Switch)</td></tr>
+      <tr><td>Active</td><td>Forward</td><td>Reverse</td><td>≈ 0.7V</td><td>Moderate</td><td>Amplifying</td></tr>
+      <tr><td>Saturation</td><td>Forward</td><td>Forward</td><td>≈ 0.8V</td><td>Low (~0.2V)</td><td>OFF (Closed Switch)</td></tr>
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
 </body>
 </html>
