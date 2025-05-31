@@ -90,28 +90,59 @@
 
   const myQuestions = [
     {
-      question: "On increasing the radius of the steel ball to double its value the terminal velocity of the ball become box:",  ///// Write the question inside double quotes
+      question: "What happens to the collector current when the base current is removed in switching mode?",  
       answers: {
-        a: " double",                  ///// Write the option 1 inside double quotes
-        b: "four times",                  ///// Write the option 2 inside double quotes
-        c: "eight times",                  ///// Write the option 3 inside double quotes
-        d: "sixteen times"                   ///// Write the option 4 inside double quotes
-      },
-      correctAnswer: "b"                ///// Write the correct option inside double quotes
+        "a": "It increases",
+        "b": "It remains the same",
+        "c": "It drops to zero",
+        "d": "It becomes negative"
+        },
+      "correctAnswer": "c"               
     },
 
     {
-      question: " On increasing density of material of the falling ball its terminal velocity:",  ///// Write the question inside double quotes
+      question: " In saturation mode, both the base-emitter and base-collector junctions are:",  ///// Write the question inside double quotes
       answers: {
-        a: "Increases",                  ///// Write the option 1 inside double quotes
-        b: "decreases",                  ///// Write the option 2 inside double quotes
-        c: "remains constant",                  ///// Write the option 3 inside double quotes
-        d: "NOT"                   ///// Write the option 4 inside double quotes
+        "a": "Forward biased",
+        "b": "Reverse biased",
+        "c": "Forward and reverse biased respectively",
+        "d": "Unbiased"
       },
-      correctAnswer: "a"                ///// Write the correct option inside double quotes
-    },                                  ///// To add more questions, copy the section below 
-    									                  ///// this line
+      "correctAnswer": "a"                ///// Write the correct option inside double quotes
+    },
+    
+    {
+      question: "What is the primary function of a transistor in switching mode?",  
+      answers: {
+        "a": "Amplification",
+        "b": "Filtering",
+        "c": "Rectification",
+        "d": "Turning circuits on/off"
+        },
+      "correctAnswer": "c"              
+    },
 
+    {
+      question: "What does the transistor act like in switching mode?",  
+      answers: {
+        "a": "A rectifier",
+        "b": "A diode",
+        "c": "A switch",
+        "d": "A signal generator"
+        },
+      "correctAnswer": "c"               
+    },
+
+    {
+      question: "Which component is commonly connected with the transistor to control an LED blink?",  
+      answers: {
+        "a": "Inductor",
+        "b": "Capacitor",
+        "c": "Resistor",
+        "d": "Transformer"
+        },
+      "correctAnswer": "c"               
+    },
 
     /* To add more MCQ's, copy the below section, starting from open curly braces ( { )
         till closing curly braces comma ( }, )
