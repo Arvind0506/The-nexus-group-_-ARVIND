@@ -90,56 +90,56 @@
 
   const myQuestions = [
     {
-      question: "What happens to the collector current when the base current is removed in switching mode?",  
+      question1: "What happens to the collector current when the base current is removed in switching mode?",  
       answers: {
-        "a": "It increases",
-        "b": "It remains the same",
-        "c": "It drops to zero",
-        "d": "It becomes negative"
+        a: "It increases",
+        b: "It remains the same",
+        c: "It drops to zero",
+        d: "It becomes negative"
         },
       "correctAnswer": "c"               
     },
 
     {
-      question: " In saturation mode, both the base-emitter and base-collector junctions are:",  ///// Write the question inside double quotes
+      question2: " In saturation mode, both the base-emitter and base-collector junctions are:",  ///// Write the question inside double quotes
       answers: {
-        "a": "Forward biased",
-        "b": "Reverse biased",
-        "c": "Forward and reverse biased respectively",
-        "d": "Unbiased"
+        a: "Forward biased",
+        b: "Reverse biased",
+        c: "Forward and reverse biased respectively",
+        d: "Unbiased"
       },
       "correctAnswer": "a"                ///// Write the correct option inside double quotes
     },
     
     {
-      question: "What is the primary function of a transistor in switching mode?",  
+      question3: "What is the primary function of a transistor in switching mode?",  
       answers: {
-        "a": "Amplification",
-        "b": "Filtering",
-        "c": "Rectification",
-        "d": "Turning circuits on/off"
+        a: "Amplification",
+        b: "Filtering",
+        c: "Rectification",
+        d: "Turning circuits on/off"
         },
       "correctAnswer": "c"              
     },
 
     {
-      question: "What does the transistor act like in switching mode?",  
+      question4: "What does the transistor act like in switching mode?",  
       answers: {
-        "a": "A rectifier",
-        "b": "A diode",
-        "c": "A switch",
-        "d": "A signal generator"
+        a: "A rectifier",
+        b: "A diode",
+        c: "A switch",
+        d: "A signal generator"
         },
       "correctAnswer": "c"               
     },
 
     {
-      question: "Which component is commonly connected with the transistor to control an LED blink?",  
+      question5: "Which component is commonly connected with the transistor to control an LED blink?",  
       answers: {
-        "a": "Inductor",
-        "b": "Capacitor",
-        "c": "Resistor",
-        "d": "Transformer"
+        a: "Inductor",
+        b: "Capacitor",
+        c: "Resistor",
+        d: "Transformer"
         },
       "correctAnswer": "c"               
     },
