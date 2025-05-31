@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "What is a Bipolar Junction Transistor (BJT)?",
+      "question": "1. What is a Bipolar Junction Transistor (BJT)?",
       "answers": {
         "a":"A unipolar device",
         "b":"A two-terminal device",
@@ -19,7 +19,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Which of the following is a BJT configuration?",
+      "question": "2. Which of the following is a BJT configuration?",
       "answers": {
         "a": "Common Source",
         "b": "Common Base",
@@ -36,7 +36,7 @@
       "difficulty": "beginner"
     }
     {
-      "question": "What is the primary function of a transistor in switching mode?",
+      "question": "3. What is the primary function of a transistor in switching mode?",
       "answers": {
         "a": "Amplification",
         "b": "Filtering",
@@ -53,7 +53,7 @@
       "difficulty": "beginner"
     }
     {
-      "question": "When is a BJT considered to be in cutoff mode?",
+      "question": "4. When is a BJT considered to be in cutoff mode?",
       "answers": {
         "a": "Base current is high",
         "b": "Collector current is maximum",
@@ -70,7 +70,7 @@
       "difficulty": "beginner"
     }
     {
-      "question": "In switching operation, when the transistor is fully ON, it is said to be in:",
+      "question": "5. In switching operation, when the transistor is fully ON, it is said to be in:",
       "answers": {
         "a": "Cutoff region",
         "b": "Linear region",
