@@ -1,1 +1,134 @@
-/* You CSS goes in here */
+body {
+  font-family: Arial, sans-serif;
+  background: #eef2f3;
+  text-align: center;
+}
+
+.circuit {
+  position: relative;
+  width: 700px;
+  height: 500px;
+  margin: 30px auto;
+  background: #fff;
+  border: 2px solid #333;
+  border-radius: 10px;
+}
+
+.label {
+  position: absolute;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.voltage {
+  color: blue;
+}
+
+.resistor1, .resistor2 {
+  position: absolute;
+  background: #d2b48c;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 2px 0;
+  width: 20px;
+  height: 60px;
+}
+
+.resistor1 { top: 100px; left: 90px; }
+.resistor2 { top: 50px; left: 310px; }
+
+.band {
+  width: 20px;
+  height: 4px;
+  border-radius: 1px;
+}
+.band1 { background: brown; }
+.band2 { background: black; }
+.band3 { background: red; }
+
+.lamp {
+  position: absolute;
+  top: 100px;
+  left: 450px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: grey;
+  color: white;
+  line-height: 50px;
+  font-weight: bold;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+.lamp.on {
+  background: red;
+  box-shadow: 0 0 15px red;
+}
+
+.wire {
+  position: absolute;
+  background: black;
+}
+
+.vcc-line1 { top: 0; left: 99px; height: 100px; width: 2px; }
+.vcc-line2 { top: 0; left: 320px; height: 50px; width: 2px; }
+.base-line1 { top: 163px; left: 100px; width: 171px; height: 2px; }
+.base-line2 { top: 165px; left: 270px; height: 75px; width: 2px; }
+.collector-line { top: 130px; left: 320px; width: 130px; height: 2px; }
+.lamp-line1 { top: 110px; left: 320px; height: 117px; width: 2px; }
+.emitter-line { top: 260px; left: 320px; height: 40px; width: 2px; }
+.lamp-line2 { top: 150px; left: 475px; height: 130px; width: 2px; }
+.gnd-line { top: 280px; left: 320px; width: 158px; height: 2px; }
+
+.transistor-svg {
+  position: absolute;
+  top: 200px;
+  left: 250px;
+}
+
+.multimeter {
+  margin: 20px auto;
+  padding: 15px;
+  width: 320px;
+  background: #222;
+  color: #0f0;
+  font-family: monospace;
+  font-size: 18px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #222;
+}
+
+.controls {
+  margin: 20px auto;
+}
+
+input[type=range] {
+  width: 300px;
+}
+
+canvas {
+  background: #fff;
+  border: 1px solid #333;
+  margin-top: 20px;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-size: 16px;
+  background: #fff;
+  border: 1px solid #333;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 8px;
+}
+
+thead {
+  background: #333;
+  color: #fff;
+}
