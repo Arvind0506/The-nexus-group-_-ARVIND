@@ -1,4 +1,4 @@
-### References
+
 
 1. Sedra, A. S., & Smith, K. C. (2014). Microelectronic Circuits (7th ed.). Oxford University Press.
 
