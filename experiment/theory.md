@@ -1,5 +1,3 @@
-# Theory
-
 ## What is a Transistor?
 
 A transistor is a three-terminal semiconductor device that can amplify or switch electronic signals. The most common type is the Bipolar Junction Transistor (BJT), which comes in two types:  
